@@ -19,27 +19,27 @@ async function checkweather(city)
     document.querySelector(".wind").innerHTML = data.wind.speed + " km/hr";
  if(data.weather[0].main=="Clouds")
  {
-    weatherIcon.src ="/6mon_internship/project1weather/images/clouds.png"
+    weatherIcon.src ="6mon_internship/project1weather/images/clouds.png"
  }
  else if(data.weather[0].main=="Clear")
     {
-       weatherIcon.src ="/6mon_internship/project1weather/images/clear.png"
+       weatherIcon.src ="6mon_internship/project1weather/images/clear.png"
     }
     else if(data.weather[0].main=="Drizzle")
         {
-           weatherIcon.src ="/6mon_internship/project1weather/images/drizzle.png"
+           weatherIcon.src ="6mon_internship/project1weather/images/drizzle.png"
         }
         else if(data.weather[0].main=="Mist")
             {
-               weatherIcon.src ="/6mon_internship/project1weather/images/mist.png"
+               weatherIcon.src ="6mon_internship/project1weather/images/mist.png"
             }
             else if(data.weather[0].main=="Snow")
                 {
-                   weatherIcon.src ="/6mon_internship/project1weather/images/snow.png"
+                   weatherIcon.src ="6mon_internship/project1weather/images/snow.png"
                 }
                 else if(data.weather[0].main=="Rain")
                     {
-                       weatherIcon.src ="/6mon_internship/project1weather/images/rain.png"
+                       weatherIcon.src ="6mon_internship/project1weather/images/rain.png"
                     }
                     document.querySelector(".weather").style.display="block"
 
